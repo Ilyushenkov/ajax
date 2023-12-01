@@ -1,0 +1,116 @@
+@font-face {
+    font-family: go-go-no;
+    src: url('fonts/gogono-cocoa-mochi-cyrillic.otf');
+}
+@font-face {
+    font-family: micra;
+    src: url('fonts/micra.ttf');
+}
+
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo{
+    width: 200px;
+}
+header{
+    border-bottom: coral dashed 2px;
+}
+.title{
+    font-family: go-go-no;
+    font-size: xxx-large;
+    color: brown;
+}
+.button{
+    margin: 1em;
+    font-family: micra;
+    font-size: large;
+    color: white;
+    cursor: pointer;
+    background: blue;
+    padding: 1em;
+    width: fit-content;
+}
+#container{
+    width: 70%;
+    min-width: 300px;
+    color: beige;
+    border: brown dotted 2px;
+    margin: auto;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: end;
+
+}
+.product{
+    color: blue;
+    width: 30%;
+    min-width: 300px;
+}
+.product_image{
+
+    max-height: 200px;
+}
+.background{
+    background: rgba( 169,169,169,0.9);
+
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+#message{
+    border: blueviolet solid 2px;
+    border-radius: 2em;
+    width: 50%;
+    min-width: 300px;
+    min-height: 400px;
+    background: white;
+    opacity: 10;
+    overflow: visible;
+    position: relative;
+}
+.btn_message{
+    text-align: center;
+    margin-inline: auto;
+    margin-top: 5em;
+}
+.red{
+    color: red!important;
+}
+.center_2{
+    text-align: center;
+    margin-inline: auto;
+    margin-top: 2em;
+}
+.input_item{
+    padding: 1em;
+    width: 80%;
+    min-width: 250px;
+    background: lemonchiffon;
+}
+.center_0{
+    text-align: center;
+    margin-inline: auto;
+}
+
+.close{
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    color: red;
+    font-size: 2em;
+    cursor: pointer;
+}

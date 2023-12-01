@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Супер Магазин</title>
+    <link rel="stylesheet" href="my.css">
+</head>
+<body onload="load_product()">
+<header class="flex">
+    <img id="logo" src="images/logo.jpg" alt="logo">
+    <h1 class="title">Добро пожаловать в наш супермагазин</h1>
+</header>
+<nav>
+    <div class="button" onclick="form_create()">Добавить товар</div>
+</nav>
+<div id="container"></div>
+<div class="background">
+    <div id="message">
+       <p class="button" onclick="this.parentNode.parentNode.style.display='none'">Закрыть</p>
+
+    </div>
+</div>
+<script src="js/ajax.js"></script>
+</body>
+</html>
